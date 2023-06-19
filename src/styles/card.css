@@ -1,0 +1,47 @@
+.cardSize {
+  width: 16rem;
+  margin-top: 1rem;
+  margin: 0 auto;
+  background: none;
+  border: none;
+}
+.cardTitle {
+  font-size: 16px;
+}
+
+.imageCard {
+  margin-top: 1rem;
+  border-radius: 100%;
+}
+
+@media (max-width: 700px) {
+  .cardSize {
+    width: 10rem;
+  }
+  
+}
+@media (max-width: 768px) {
+  .cardSize {
+    font-size: 15px;
+  }
+  .cardTitle{
+    font-size: 15px ;
+  }
+}
+
+@media (min-height: 1024px) {
+  .cardSize {
+    font-size: 25.3px;
+  }
+  .cardTitle{
+    font-size:25.3px ;
+  }
+  @media (height: 1368px) {
+    .cardSize {
+      font-size: 31.5px;
+    }
+    .cardTitle{
+      font-size:31.5px ;
+    }
+  }
+}

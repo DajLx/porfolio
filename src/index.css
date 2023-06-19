@@ -1,0 +1,113 @@
+.appContainerSoft {
+  background-color: #b6d094;
+  color: #32908f;
+}
+
+.appContainerContrast {
+  background-color: black;
+  color: #00fffb;
+}
+
+.appContainerHot {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 175) 30%,
+    rgb(255, 206, 114) 100%
+  );
+
+  color: black;
+}
+
+.appContainerLigth {
+  background-color: white;
+  color: black;
+}
+
+.appContainerDark {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.one {
+  position: fixed;
+  top: 18%;
+  right: 5%;
+}
+.two {
+  position: fixed;
+  top: 21.4%;
+  right: 11.7%;
+}
+.three {
+  position: fixed;
+  top: 26.5%;
+  right: 15%;
+}
+.four {
+  position: fixed;
+  top: 31.5%;
+  right: 11.7%;
+}
+.five {
+  position: fixed;
+  top: 35%;
+  right: 5%;
+}
+
+.buttonIdea {
+  position: fixed;
+  right: 3.5%;
+  top: 25%;
+  border-radius: 51%;
+  height: 45px;
+  width: 42px;
+}
+
+.sizeOptions {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+
+@media (min-width: 768px) {
+  .sizeOptions {
+    height: 3.2rem;
+    width: 3rem;
+  }
+  .buttonIdea {
+    height: 4rem;
+    width: 4rem;
+  }
+  @media (max-height: 800px) {
+    .buttonIdea {
+      height: 4rem;
+      width: 4rem;
+      top: 27.5%;
+      right: 2%;
+    }
+    .one {
+      top: 16%;
+      right: 2.5%;
+    }
+    .two {
+      top: 21%;
+      right: 8%;
+    }
+    .three {
+      top: 29.4%;
+      right: 11%;
+    }
+    .four {
+      top: 37.8%;
+      right: 8%;
+    }
+    .five {
+      top: 43%;
+      right: 2.5%;
+    }
+    .sizeOptions {
+      height: 2.8rem;
+      width: 3rem;
+    }
+  }
+}

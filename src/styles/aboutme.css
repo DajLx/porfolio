@@ -1,0 +1,24 @@
+.aboutmeContainer {
+  height: 100%;
+  padding: 0 7rem 2.6rem;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .aboutmeContainer {
+    padding: 0 1rem;
+    font-size: 17px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .aboutmeContainer {
+    margin-top: 1rem;
+    padding: 0 3rem 0.3rem;
+    font-size: 27.3px;
+  }
+  @media (height: 1368px) {
+    .aboutmeContainer {
+      font-size: 33.5px;
+    }
+  }
+}

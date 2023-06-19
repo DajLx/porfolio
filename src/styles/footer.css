@@ -1,0 +1,21 @@
+#writeMe {
+  height: 100%;
+  width: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.contactHot {
+  color: black;
+}
+
+.contacContrast {
+  color: #00fffb;
+}
+.contactLigth {
+  color: #b6d094;
+}
+.contactDark {
+  color: white;
+}

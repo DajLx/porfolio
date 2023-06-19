@@ -1,0 +1,65 @@
+.NavbarContainerSoft {
+  --bs-bg-opacity: none;
+  background-color: #ecce8e69;
+}
+
+.navbarThemeSoft {
+  background-color: #ecce8e69;
+  height: 100%;
+  width: 100%;
+}
+.NavbarItemsSoft {
+  color: #32908f;
+}
+#themeSoft {
+  color: #32908f;
+}
+
+.NavbarContainerContrast {
+  --bs-bg-opacity: none;
+  background-color: rgba(104, 104, 183, 0.443);
+}
+.NavbarItemsContrast {
+  color: #00fffb;
+}
+#themeContrast {
+  color: #00fffb;
+}
+
+.NavbarContainerHot {
+  --bs-bg-opacity: none;
+  background-color: rgb(255, 0, 0);
+}
+.NavbarItemsHot {
+  color: yellow;
+}
+#themeHot {
+  color: white;
+}
+
+/* veldAD XD */
+/* solo por si, bootstrao y react bootstrapson tecnicamente lo mismo xd, solo que adpatado a react xd..... ¿que oarte de codigo es la queerias ver? */
+.NavbarContainerLigth {
+  --bs-bg-opacity: none;
+
+  background-color: #b6d094;
+  color: white;
+}
+.NavbarItemsLigth {
+  color: black;
+}
+#themeLigth {
+  color: black;
+}
+
+.NavbarContainerDark {
+  --bs-bg-opacity: none;
+  background-color: #2f2f2f;
+  color: white;
+}
+.NavbarItemsDark {
+  color: white;
+}
+#themeDark {
+  color: white;
+}

@@ -1,0 +1,104 @@
+.infoContactSoft {
+  background: #ffe6b1;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 10px;
+  width: 100%;
+}
+.sendInfoButtonSoft {
+  color: black;
+  border-bottom: 1px solid green;
+  border-right: 1px solid green;
+  border-top: none;
+  border-left: none;
+  background: none;
+  margin-top: 1rem;
+}
+.contactContainerSoft {
+  padding: 1rem;
+}
+
+.infoContactContrast {
+  background-color: rgba(104, 104, 183, 0.443);
+  border: none;
+  outline: none;
+  color: #00fffb;
+  border-radius: 10px;
+  width: 100%;
+}
+.sendInfoButtonContrast {
+  color: #00fffb;
+  border-bottom: 1px solid green;
+  border-right: 1px solid green;
+  border-top: none;
+  border-left: none;
+  background: none;
+  margin-top: 1rem;
+}
+.contactContainerContrast {
+  padding: 1rem;
+}
+
+.infoContactHot {
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+.sendInfoButtonHot {
+  color: black;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-top: none;
+  border-left: none;
+  background: none;
+  margin-top: 1rem;
+}
+.contactContainerHot {
+  padding: 1rem;
+}
+/* se puede modificar xd, si se, pero aun no */
+.infoContactLigth {
+  background-color: #b6d094;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 100%;
+}
+.sendInfoButtonLigth {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid #b6d094;
+  border-right: 1px solid #b6d094;
+  border-top: none;
+  border-left: none;
+  background: none;
+  margin-top: 1rem;
+}
+.contactContainerLigth {
+  padding: 1rem;
+}
+
+.infoContactDark {
+  background: #2f2f2f;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+.sendInfoButtonDark {
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: none;
+  border-left: none;
+  background: none;
+  margin-top: 1rem;
+}
+.contactContainerDark {
+  padding: 1rem;
+}
