@@ -6,8 +6,8 @@ import { useSelector } from "react-redux";
 const Footer = () => {
   const theme = useSelector((state) => state.theme);
   return (
-    <div style={{textAlign:"center"}}>
-      <h2>dirección:</h2>
+    <div style={{ textAlign: "center" }} className="footerContainer">
+      <h2 className="direction">dirección:</h2>
       <p>Venezuela, Carabobo</p>
       <div id={`writeMe`}>
         <a href="https://wa.me/+584145818721">

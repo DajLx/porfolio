@@ -7,7 +7,9 @@ import Footer from "./footer";
 function Contact() {
   const theme = useSelector((state) => state.theme);
   return (
-    <div style={{ paddingLeft: "1rem", paddingRight: "1rem" }}>
+    <div className="contactContainer"
+     
+    >
       <Form action="https://formspree.io/f/mvonewpb" method="post">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Nombre</Form.Label>
@@ -22,12 +24,20 @@ function Contact() {
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Correo Electrónico</Form.Label>
-          <Form.Control type="email" className={`infoContact${theme}` } name="correo" />
+          <Form.Control
+            type="email"
+            className={`infoContact${theme}`}
+            name="correo"
+          />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox"></Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>numero de telefono</Form.Label>
-          <Form.Control type="number" className={`infoContact${theme}`} name="numero"/>
+          <Form.Control
+            type="number"
+            className={`infoContact${theme}`}
+            name="numero"
+          />
         </Form.Group>
         <label htmlFor="contact´sMessage">
           ¿algun mensaje en particular?
@@ -35,7 +45,7 @@ function Contact() {
             id="contact´sMessage"
             cols="150"
             rows="6"
-            className={`infoContact${theme}`}
+            className={`infoContact${theme} messageContact`}
             name="comentario"
             style={{ marginTop: "10px" }}
           ></textarea>
@@ -43,7 +53,7 @@ function Contact() {
         <Button
           variant="primary"
           type="submit"
-          className={`sendInfoButton${theme}`}
+          className={`sendInfoButton${theme} `}
         >
           enviar
         </Button>

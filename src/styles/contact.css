@@ -1,3 +1,8 @@
+.contactContainer {
+  font-size: 28.5px;
+  padding: 2rem 1rem 1rem;
+}
+
 .infoContactSoft {
   background: #ffe6b1;
   border: none;
@@ -14,9 +19,6 @@
   border-left: none;
   background: none;
   margin-top: 1rem;
-}
-.contactContainerSoft {
-  padding: 1rem;
 }
 
 .infoContactContrast {
@@ -36,11 +38,7 @@
   background: none;
   margin-top: 1rem;
 }
-.contactContainerContrast {
-  padding: 1rem;
-}
-
-.infoContactHot {
+ .infoContactHot {
   background-color: red;
   border: none;
   outline: none;
@@ -56,9 +54,6 @@
   border-left: none;
   background: none;
   margin-top: 1rem;
-}
-.contactContainerHot {
-  padding: 1rem;
 }
 /* se puede modificar xd, si se, pero aun no */
 .infoContactLigth {
@@ -78,9 +73,6 @@
   background: none;
   margin-top: 1rem;
 }
-.contactContainerLigth {
-  padding: 1rem;
-}
 
 .infoContactDark {
   background: #2f2f2f;
@@ -99,6 +91,67 @@
   background: none;
   margin-top: 1rem;
 }
-.contactContainerDark {
-  padding: 1rem;
+
+@media (max-width: 389px) {
+  .contactContainer {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  @media (min-height: 1368px) {
+    .sendInfoButtonSoft {
+      height: 4rem;
+      width: 6rem;
+      border-radius: 25%;
+    }
+    .sendInfoButtonDark {
+      height: 4rem;
+      width: 6rem;
+      border-radius: 25%;
+    }
+    .sendInfoButtonHot {
+      height: 4rem;
+      width: 6rem;
+      border-radius: 25%;
+    }
+    .sendInfoButtonLigth {
+      height: 4rem;
+      width: 6rem;
+      border-radius: 25%;
+    }
+    .sendInfoButtonContrast {
+      height: 4rem;
+      width: 6rem;
+      border-radius: 25%;
+    }
+  }
+  .contactContainer {
+    padding: 3rem;
+  }
+  .infoContactSoft {
+    margin-bottom: 3rem;
+    height: 5rem;
+  }
+  .infoContactContrast {
+    margin-bottom: 3rem;
+    height: 5rem;
+  }
+  .infoContactHot {
+    margin-bottom: 3rem;
+    height: 5rem;
+  }
+  .infoContactLigth {
+    margin-bottom: 3rem;
+    height: 5rem;
+  }
+  .infoContactDark {
+    margin-bottom: 3rem;
+    height: 5rem;
+  }
+  .messageContact {
+    height: 15rem;
+  }
+}
+
+@media (min-height: 1024px) {
 }

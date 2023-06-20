@@ -1,9 +1,10 @@
 import React from "react";
 import img1 from "../assets/gif1.gif";
 import img2 from "../assets/gif3.gif";
+import "../styles/mainview.css";
 const MainView = () => {
   return (
-    <div style={{ marginTop: "1rem", height: "100%", padding:"1rem" }}>
+    <div style={{ marginTop: "1rem", height: "100%", padding: "1rem" }} className="mainViewContainer">
       <img
         src={img1}
         alt=""
@@ -34,7 +35,7 @@ const MainView = () => {
           float: "right",
           height: "38%",
           width: "40%",
-         margin:"1rem"
+          margin: "1rem",
         }}
       />
       <ul style={{ marginTop: "1rem" }}>

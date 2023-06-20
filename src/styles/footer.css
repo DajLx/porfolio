@@ -6,6 +6,7 @@
   justify-content: space-around;
   font-size: 20px;
 }
+
 .contactHot {
   color: black;
 }
@@ -18,4 +19,22 @@
 }
 .contactDark {
   color: white;
+}
+@media (min-width: 768px) {
+  #writeMe {
+    font-size: 30px;
+  }
+
+  .footerContainer {
+    font-size: 35px;
+    margin-top: 4.5rem;
+  }
+  .direction {
+    font-size: 35px;
+  }
+  @media (min-height: 1368px) {
+    #writeMe {
+      font-size: 50px;
+    }
+  }
 }
