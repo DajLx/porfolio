@@ -14,7 +14,7 @@ const AboutMe = () => {
         oportunidades, anticipar y saber tener criterio para resolver los
         problemas que se presenten, me adapto fácilmente a compañeros o equipo
         laboral, psíquicamente estoy preparado para trabajar bajo presión,
-        motivando al empleador estar satisfecho con mis aportes y servicios. Mis
+        motivando al empleador a estar satisfecho con mis aportes y servicios. Mis
         metas es adquirir nuevos conocimientos para superarme y alcanzar éxitos
         en la vida.
       </p>

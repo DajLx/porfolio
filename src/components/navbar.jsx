@@ -29,7 +29,10 @@ function MyNavbar() {
           className={`NavbarItems${theme}`}
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav
+            className="me-auto"
+            style={{ display: "flex", alignItems: "center" }}
+          >
             <Nav.Link
               className={`NavbarItems${theme}`}
               onClick={() => navigate("/aboutMe")}
@@ -40,7 +43,7 @@ function MyNavbar() {
               className={`NavbarItems${theme}`}
               onClick={() => navigate("/porfolio")}
             >
-              Porfolio
+              Portafolio
             </Nav.Link>
             <Nav.Link
               className={`NavbarItems${theme}`}

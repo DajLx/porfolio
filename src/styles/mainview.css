@@ -1,5 +1,8 @@
 .mainViewContainer {
   font-size: 16px;
+  margin-top: 1re;
+  height: 100%;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -8,10 +11,10 @@
     font-size: 20.4px;
   }
 }
-@media(min-width:820px){
-    .mainViewContainer{
-        font-size: 23.2px;
-    }
+@media (min-width: 820px) {
+  .mainViewContainer {
+    font-size: 23.2px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -27,7 +30,7 @@
   }
 }
 @media (height: 1368px) {
-    .mainViewContainer {
-      font-size: 27.8px;
-    }
+  .mainViewContainer {
+    font-size: 27.8px;
   }
+}

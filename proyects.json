@@ -1,0 +1,37 @@
+{
+  "proyects": {
+    "HouseOfDev": {
+      "name": "HouseOfDev",
+      "description": "aplicación web que empezó su desarrollo entre 3 personas el 21-03-23 terminando el mismo un mes después, cuyo rol principal es la venta y alquiler de viviendas mediante citas generadas por los usuarios que visiten la app cabe destacar que tambien pueden añadir una o varias viviendas a la sección de favoritos, dichas citas as manejaría uno o varios encargadxs(admins) los cuales tienen el rol de poder acutalizar, dar de baja o alta la vivienda, actualizar la información de un usuario(darle admin en este caso), o darles de baja, tambien pueden ver las citas de todos los usuarios y poder abrir un chat para comunicarse con el dueño de la cita (el usuario que la generó).",
+      "responsibilities": [
+        "Vista de favoritos con su respectivo responsive para la vista en mobile o pc.",
+        "Lógica para poder añadir a favoritos, y su respectiva ruta para guardar dicha infromación en la base de datos.",
+        "Manejo de la mayoria de los bugs ( tanto desde la vista del cliente como en el servidor)",
+        "Modularizacion de rutas a controllers",
+        "Todas las vitas del admin responsives"
+      ],
+      "members": 3,
+      "technologies": [
+        "nodeJs",
+        "express",
+        "sequelize",
+        "postgreSQL",
+        "npm",
+        "react",
+        "bootstrap",
+        "redux",
+        "git",
+        "github"
+      ],
+      "link": "https://house-of-dev.vercel.app/"
+    },
+    "ColorGame": {
+      "name": "ColorGame",
+      "description": "minijuego en el que en el título se te presenta un RGB(RED,GREEN,BLUE), basandose en los valores del RGB tendras que adivinar el color y tocarlo (en modo facil tienes 3 opciones mientras que en el difícil tienes 6), en dicho juego tuve la responsabilidad de:",
+      "responsibilities": " el manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho juego. En español: me encargué de que todo funcione mediante un hoja de código.",
+      "members": 1,
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "link": "https://pdr-alexduran-8aadcd.netlify.app/color%20game/"
+    }
+  }
+}

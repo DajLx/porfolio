@@ -28,48 +28,50 @@
   color: white;
 }
 
-.one {
-  position: fixed;
-  top: 18%;
-  right: 5%;
+.btn-ctn {
+  right: 0;
+  position: absolute;
+  top: 30%;
 }
-.two {
-  position: fixed;
-  top: 21.4%;
-  right: 11.7%;
+
+.themes {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+  transition-property: top left;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
 }
-.three {
-  position: fixed;
-  top: 26.5%;
-  right: 15%;
-}
-.four {
-  position: fixed;
-  top: 31.5%;
-  right: 11.7%;
-}
-.five {
-  position: fixed;
-  top: 35%;
-  right: 5%;
+
+.themes-active {
+  top: var(--t);
+  left: var(--l);
 }
 
 .buttonIdea {
-  position: fixed;
-  right: 3.5%;
-  top: 25%;
-  border-radius: 51%;
-  height: 45px;
-  width: 42px;
+  position: relative;
+  right: 0;
+  z-index: 1;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  height: 4rem;
+  width: 4rem;
+  transition-property: border-radius right;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+}
+.button-active {
+  border-radius: 2rem;
+  right: 0.5rem;
 }
 
 .sizeOptions {
-  height: 2rem;
-  width: 2rem;
+  height: 3.2rem;
+  width: 3rem;
   border-radius: 100%;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .sizeOptions {
     height: 3.2rem;
     width: 3rem;
@@ -110,4 +112,4 @@
       width: 3rem;
     }
   }
-}
+} */

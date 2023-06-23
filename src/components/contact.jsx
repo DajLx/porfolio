@@ -32,7 +32,7 @@ function Contact() {
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox"></Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>numero de telefono</Form.Label>
+          <Form.Label>Numero de telefono</Form.Label>
           <Form.Control
             type="number"
             className={`infoContact${theme}`}
@@ -40,7 +40,7 @@ function Contact() {
           />
         </Form.Group>
         <label htmlFor="contact´sMessage">
-          ¿algun mensaje en particular?
+          ¿Algun mensaje en particular?
           <textarea
             id="contact´sMessage"
             cols="150"
@@ -55,7 +55,7 @@ function Contact() {
           type="submit"
           className={`sendInfoButton${theme} `}
         >
-          enviar
+          Enviar
         </Button>
       </Form>
       <Footer />
