@@ -1,36 +1,73 @@
 .mainViewContainer {
-  font-size: 16px;
-  margin-top: 1re;
+  font-size: 20.5px;
+  margin-top: 1rem;
   height: 100%;
-  padding: 1rem;
+  padding-top: 100%;
+ opacity: 0%;
+  transition-property: padding opacity;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.mainViewContainer-active {
+  padding: 1rem 3rem 0.5rem;
+  opacity: 100%;
+  
+}
+
+.imgSize-2 {
+  height: 5rem;
+  position: relative;
+  opacity: 0%;
+  left: 15rem;
+  transition-property: left opacity;
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+
+.imgSize-2-active {
+  left: 0rem;
+  opacity: 100%;
 }
 
 @media (min-width: 768px) {
-  .mainViewContainer {
-    padding: 0 1rem;
-    font-size: 20.4px;
+  .mainViewContainer-active {
+    padding: 0 7rem;
+    font-size: 29.4px;
+  }
+  
+
+  .imgSize-1 {
+    height: 24rem;
+  }
+
+  .imgSize-2 {
+    height: 12rem;
+    z-index: 0;
   }
 }
 @media (min-width: 820px) {
   .mainViewContainer {
-    font-size: 23.2px;
+    font-size: 33.6px;
   }
 }
 
 @media (min-width: 1024px) {
-  .mainViewContainer {
+  .mainViewContainer-active {
     margin-top: 1rem;
-    padding: 0 3rem 0.3rem;
-    font-size: 20px;
+    padding: 0 7rem 0.3rem;
+    font-size: 36px;
   }
-  @media (height: 1368px) {
-    .mainViewContainer {
-      font-size: 33.5px;
-    }
+  .imgSize-1 {
+    width: 18rem;
+  }
+
+  .imgSize-2 {
+    width: 18rem;
   }
 }
 @media (height: 1368px) {
-  .mainViewContainer {
-    font-size: 27.8px;
+  .mainViewContainer-active {
+    font-size: 39.4px;
   }
 }

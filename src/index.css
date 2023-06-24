@@ -36,8 +36,10 @@
 
 .themes {
   position: absolute;
+  z-index: 1;
   top: 0.4rem;
   left: 0.5rem;
+  opacity: 65%;
   transition-property: top left;
   transition-timing-function: ease;
   transition-duration: 0.5s;
@@ -51,7 +53,7 @@
 .buttonIdea {
   position: relative;
   right: 0;
-  z-index: 1;
+  z-index: 2;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
   height: 4rem;
