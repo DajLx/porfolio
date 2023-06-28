@@ -12,7 +12,7 @@ function MyNavbar() {
   const theme = useSelector((state) => state.theme);
   const navigate = useNavigate();
 
-  console.log(theme);
+
 
   return (
     <Navbar expand="lg" className={`NavbarContainer${theme}`}>

@@ -14,18 +14,31 @@
   border-radius: 100rem;
 }
 
+.card-container {
+  position: relative;
+  right: 6rem;
+  opacity: 0%;
+  transition-property: right opacity;
+  transition-timing-function: ease;
+  transition-duration: 2s;
+}
+
+.card-container-active {
+  right: 0rem;
+  opacity: 100%;
+}
+
 @media (max-width: 700px) {
   .cardSize {
     width: 10rem;
   }
-  
 }
 @media (max-width: 768px) {
   .cardSize {
     font-size: 15px;
   }
-  .cardTitle{
-    font-size: 15px ;
+  .cardTitle {
+    font-size: 15px;
   }
 }
 
@@ -33,15 +46,15 @@
   .cardSize {
     font-size: 25.3px;
   }
-  .cardTitle{
-    font-size:25.3px ;
+  .cardTitle {
+    font-size: 25.3px;
   }
   @media (height: 1368px) {
     .cardSize {
       font-size: 31.5px;
     }
-    .cardTitle{
-      font-size:31.5px ;
+    .cardTitle {
+      font-size: 31.5px;
     }
   }
 }

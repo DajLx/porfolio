@@ -12,10 +12,15 @@ function Porfolio() {
   const dispatch = useDispatch();
   const handleShow = () => dispatch(setShow(true));
   const [proyect, setProyect] = useState("");
+  const [active, setActive] = useState(false);
+  setTimeout(() => setActive(true), "500");
 
   return (
     <>
-      <Container style={{ marginTop: "1rem", height: "95vh" }} id="Porfolio">
+      <Container
+        style={{ marginTop: "1rem", height: "95vh" }}
+        className={active ? "portfolio portfolio-active" : "portfolio"}
+      >
         <h2>Porfolio:</h2>
         <Row>
           <Col

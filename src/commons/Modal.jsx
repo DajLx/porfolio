@@ -15,7 +15,6 @@ const ModalU = ({ proyect }) => {
   const show = useSelector((state) => state.show);
   const disptach = useDispatch();
   const handleClose = () => disptach(setShow(false));
-  console.log(demos);
 
   return data ? (
     <Modal show={show} onHide={handleClose}>

@@ -2,31 +2,29 @@
   font-size: 20.5px;
   margin-top: 1rem;
   height: 100%;
-  padding-top: 100%;
- opacity: 0%;
+  padding-top: 20rem;
+  opacity: 0%;
   transition-property: padding opacity;
   transition-timing-function: ease;
-  transition-duration: 1.5s;
+  transition-duration: 2s;
 }
 
 .mainViewContainer-active {
   padding: 1rem 3rem 0.5rem;
   opacity: 100%;
-  
 }
 
 .imgSize-2 {
   height: 5rem;
-  position: relative;
+
   opacity: 0%;
-  left: 15rem;
-  transition-property: left opacity;
+
+  transition-property: opacity;
   transition-timing-function: ease;
-  transition-duration: 1.5s;
+  transition-duration: 2s;
 }
 
 .imgSize-2-active {
-  left: 0rem;
   opacity: 100%;
 }
 
@@ -35,7 +33,6 @@
     padding: 0 7rem;
     font-size: 29.4px;
   }
-  
 
   .imgSize-1 {
     height: 24rem;

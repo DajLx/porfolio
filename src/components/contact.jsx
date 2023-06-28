@@ -3,12 +3,16 @@ import Form from "react-bootstrap/Form";
 import "../styles/contact.css";
 import { useSelector } from "react-redux";
 import Footer from "./footer";
-
+import { useState } from "react";
 function Contact() {
+  const [active, setActive] = useState(false);
+  setTimeout(() => setActive(true));
   const theme = useSelector((state) => state.theme);
   return (
-    <div className="contactContainer"
-     
+    <div
+      className={
+        active ? "contactContainer contactContainer-active" : "contactContainer"
+      }
     >
       <Form action="https://formspree.io/f/mvonewpb" method="post">
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -17,9 +21,6 @@ function Contact() {
             type="text"
             name="nombre"
             className={`infoContact${theme}`}
-            onChange={(e) => {
-              console.log(e);
-            }}
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPassword">
