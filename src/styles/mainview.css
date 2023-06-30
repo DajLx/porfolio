@@ -1,8 +1,9 @@
 .mainViewContainer {
-  font-size: 20.5px;
+  font-size: 13.7px;
   margin-top: 1rem;
-  height: 100%;
-  padding-top: 20rem;
+  margin: 0 auto;
+  padding-right: 7rem;
+  height: 93.8vh;
   opacity: 0%;
   transition-property: padding opacity;
   transition-timing-function: ease;
@@ -10,28 +11,40 @@
 }
 
 .mainViewContainer-active {
-  padding: 1rem 3rem 0.5rem;
+  padding: 0 3rem;
   opacity: 100%;
 }
 
-.imgSize-2 {
-  height: 5rem;
+.text-mainView {
+  padding: 1rem;
+  width: 100%;
 
+  position: relative;
+  top: 10%;
+}
+
+.imgSize-2 {
+  height: 6rem;
+  position: relative;
+  left: 50rem;
   opacity: 0%;
 
-  transition-property: opacity;
-  transition-timing-function: ease;
-  transition-duration: 2s;
+  transition: left ease 2s ;
 }
 
 .imgSize-2-active {
+  left: 0rem;
   opacity: 100%;
 }
 
 @media (min-width: 768px) {
   .mainViewContainer-active {
-    padding: 0 7rem;
-    font-size: 29.4px;
+    /* padding: 0 7rem; */
+    font-size: 18.4px;
+    height: 94.5vh;
+  }
+  .text-mainView {
+    top: 16%;
   }
 
   .imgSize-1 {
@@ -45,15 +58,16 @@
 }
 @media (min-width: 820px) {
   .mainViewContainer {
-    font-size: 33.6px;
+    font-size: 22.6px;
+
+    height: 95.5vh;
   }
 }
 
 @media (min-width: 1024px) {
   .mainViewContainer-active {
-    margin-top: 1rem;
-    padding: 0 7rem 0.3rem;
-    font-size: 36px;
+    /* padding: 0 7rem 0.3rem; */
+    font-size: 23px;
   }
   .imgSize-1 {
     width: 18rem;
@@ -65,6 +79,7 @@
 }
 @media (height: 1368px) {
   .mainViewContainer-active {
-    font-size: 39.4px;
+    font-size: 27.4px;
+    height: 96vh;
   }
 }
