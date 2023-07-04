@@ -1,12 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import img1 from "../assets/pro1.png";
-import img2 from "../assets/img2.png";
+import img from "../assets/";
 import Modal from "../commons/Modal";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setShow } from "../state/show";
+import { proyects } from "../../proyects.json";
 
 function Porfolio() {
   const dispatch = useDispatch();
@@ -14,23 +14,40 @@ function Porfolio() {
   const [proyect, setProyect] = useState("");
   const [active, setActive] = useState(false);
   setTimeout(() => setActive(true), "500");
+  console.log(img);
 
   return (
     <>
       <Container
-        style={{ marginTop: "1rem", height: "95vh" }}
+        style={{ marginTop: "1rem", height: "1000" }}
         className={active ? "portfolio portfolio-active" : "portfolio"}
       >
         <h2>Porfolio:</h2>
         <Row>
-          <Col
+          {Object.entries(proyects).map(([key, proyect]) => (
+            <Col
+              xs={6}
+              onClick={() => {
+                handleShow(), setProyect(proyect.name);
+              }}
+              style={{marginBottom:"1rem"}}
+            >
+              {proyect.name}
+              <img
+                src={img[`img${proyect.name}`]}
+                style={{ height: "88%", width: "88%" }}
+              />
+            </Col>
+          ))}
+          {/* <Col
+
             xs={6}
             onClick={() => {
               handleShow(), setProyect("HouseOfDev");
             }}
           >
             HouseOfDev
-            <img src={img1} style={{ height: "88%", width: "88%" }} />
+            
           </Col>
           <Col
             xs={6}
@@ -40,7 +57,7 @@ function Porfolio() {
           >
             Color Game
             <img src={img2} style={{ height: "88%", width: "88%" }} />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <Modal proyect={proyect} />
