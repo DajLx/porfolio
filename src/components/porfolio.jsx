@@ -19,7 +19,7 @@ function Porfolio() {
   return (
     <>
       <Container
-        style={{ marginTop: "1rem", height: "1000" }}
+        style={{ marginTop: "1rem",  }}
         className={active ? "portfolio portfolio-active" : "portfolio"}
       >
         <h2>Porfolio:</h2>

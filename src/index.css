@@ -57,6 +57,7 @@
   transition-property: right opacity;
   transition-timing-function: ease;
   transition-duration: 2s;
+  height: 98vh;
 }
 
 .portfolio-active{
@@ -130,3 +131,8 @@
     }
   }
 } */
+@media (width:1024px){
+  .portfolio{
+    height: 100%;
+  }
+}
