@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 18.7px;
 }
 
 .contactHot {
@@ -26,15 +26,11 @@
   }
 
   .footerContainer {
+    
     font-size: 35px;
     margin-top: 4.5rem;
   }
   .direction {
     font-size: 35px;
-  }
-  @media (min-height: 1368px) {
-    #writeMe {
-      font-size: 50px;
-    }
   }
 }

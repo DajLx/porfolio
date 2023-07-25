@@ -1,9 +1,9 @@
 .mainViewContainer {
   font-size: 13.7px;
-  margin-top: 1rem;
+  z-index: -2;
   margin: 0 auto;
+  margin-top: 2rem;
   padding-right: 7rem;
-  height: 93.8vh;
   opacity: 0%;
   transition-property: padding opacity;
   transition-timing-function: ease;
@@ -29,7 +29,7 @@
   left: 50rem;
   opacity: 0%;
 
-  transition: left ease 2s ;
+  transition: left ease 2s;
 }
 
 .imgSize-2-active {
@@ -41,45 +41,14 @@
   .mainViewContainer-active {
     /* padding: 0 7rem; */
     font-size: 18.4px;
-    height: 94.5vh;
+    padding: 0 6rem;
   }
   .text-mainView {
     top: 16%;
   }
 
-  .imgSize-1 {
-    height: 24rem;
-  }
-
   .imgSize-2 {
-    height: 12rem;
+    height: 10rem;
     z-index: 0;
-  }
-}
-@media (min-width: 820px) {
-  .mainViewContainer {
-    font-size: 22.6px;
-
-    height: 95.5vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mainViewContainer-active {
-    /* padding: 0 7rem 0.3rem; */
-    font-size: 23px;
-  }
-  .imgSize-1 {
-    width: 18rem;
-  }
-
-  .imgSize-2 {
-    width: 18rem;
-  }
-}
-@media (height: 1368px) {
-  .mainViewContainer-active {
-    font-size: 27.4px;
-    height: 96vh;
   }
 }

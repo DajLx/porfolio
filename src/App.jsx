@@ -17,14 +17,13 @@ import MainView from "./components/MainView";
 function App() {
   const theme = useSelector((state) => state.theme);
   return (
-    <div className={`appContainer${theme}`} style={{ height: "100%" }}>
-      <Navbar /> <Theme />
-      <Routes>
-        <Route path="/" element={<MainView />} />
-        <Route path="aboutMe" element={<MyCard />} />
-        <Route path="/porfolio" element={<Porfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <div className={`appContainer${theme}`} >
+      <Navbar />
+      <Theme />
+      <MainView />
+      <MyCard />
+      <Porfolio />
+      <Contact />
     </div>
   );
 }

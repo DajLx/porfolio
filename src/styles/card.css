@@ -1,5 +1,5 @@
 .cardSize {
-  width: 16rem;
+  width: 13.7rem;
   margin-top: 1rem;
   margin: 0 auto;
   background: none;
@@ -33,28 +33,11 @@
     width: 10rem;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .cardSize {
-    font-size: 15px;
+    font-size: 18.4px;
   }
   .cardTitle {
-    font-size: 15px;
-  }
-}
-
-@media (min-height: 1024px) {
-  .cardSize {
-    font-size: 25.3px;
-  }
-  .cardTitle {
-    font-size: 25.3px;
-  }
-  @media (height: 1368px) {
-    .cardSize {
-      font-size: 31.5px;
-    }
-    .cardTitle {
-      font-size: 31.5px;
-    }
+    font-size: 21px;
   }
 }

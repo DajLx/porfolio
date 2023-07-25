@@ -1,6 +1,7 @@
 .appContainerSoft {
   background-color: #b6d094;
   color: #32908f;
+  align-items: center;
 }
 
 .appContainerContrast {
@@ -30,13 +31,14 @@
 
 .btn-ctn {
   right: 0;
-  position: absolute;
+  position: fixed;
   top: 30%;
+  z-index: 1000;
 }
 
 .themes {
   position: absolute;
-  z-index: 1;
+  z-index:1;
   top: 0.4rem;
   left: 0.5rem;
   opacity: 65%;
@@ -50,25 +52,27 @@
   left: var(--l);
 }
 
-.portfolio{
+.portfolio {
   position: relative;
   right: 6rem;
   opacity: 0%;
   transition-property: right opacity;
   transition-timing-function: ease;
   transition-duration: 2s;
-  height: 98vh;
 }
 
-.portfolio-active{
+.portfolio-active {
+  padding: 0 2.6rem;
   right: 0rem;
   opacity: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .buttonIdea {
   position: relative;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
   height: 4rem;
@@ -131,8 +135,11 @@
     }
   }
 } */
-@media (width:1024px){
-  .portfolio{
+@media (width: 1024px) {
+  .portfolio {
     height: 100%;
+  }
+  .portfolio-active{
+    padding: 0 6rem;
   }
 }

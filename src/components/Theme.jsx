@@ -19,7 +19,11 @@ const Theme = () => {
   return (
     <div className="btn-ctn">
       <button
-        className={active ? `buttonIdea button-active appContainer${theme}` : `buttonIdea appContainer${theme}`}
+        className={
+          active
+            ? `buttonIdea button-active appContainer${theme}`
+            : `buttonIdea appContainer${theme}`
+        }
         style={{}}
         onClick={() => {
           togglePosition();
@@ -27,62 +31,64 @@ const Theme = () => {
       >
         {<FaLightbulb />}
       </button>
-
-      <button
-        className={`sizeOptions themes ${
-          active ? "themes-active" : null
-        }  appContainer${theme}`}
-        style={{ "--t": "-4.5rem", "--l": "0.5rem" }}
-        onClick={() => {
-          dispatch(changeTheme("Soft"));
-        }}
-      >
-        {<GiLindenLeaf />}
-      </button>
-      <button
-        className={`sizeOptions themes ${
-          active ? "themes-active" : null
-        } appContainer${theme}`}
-        style={{ "--t": "-3rem", "--l": "-2.8rem" }}
-        onClick={() => {
-          dispatch(changeTheme("Contrast"));
-        }}
-      >
-        <ImContrast />
-      </button>
-      <button
-        className={`sizeOptions themes ${
-          active ? "themes-active" : null
-        } appContainer${theme}`}
-        style={{ "--t": "0.4rem", "--l": "-4.5rem" }}
-        onClick={() => {
-          dispatch(changeTheme("Ligth"));
-        }}
-      >
-        <HiOutlineLightBulb />
-      </button>
-      <button
-        className={`sizeOptions themes ${
-          active ? "themes-active" : null
-        } appContainer${theme}`}
-        style={{ "--t": "3.6rem", "--l": "-2.8rem" }}
-        onClick={() => {
-          dispatch(changeTheme("Dark"));
-        }}
-      >
-        <MdDarkMode />
-      </button>
-      <button
-        className={`sizeOptions themes ${
-          active ? "themes-active" : null
-        } appContainer${theme}`}
-        style={{ "--t": "5.1rem", "--l": "0.5rem" }}
-        onClick={() => {
-          dispatch(changeTheme("Hot"));
-        }}
-      >
-        <GiThermometerHot />
-      </button>
+      <div>
+        {" "}
+        <button
+          className={`sizeOptions themes ${
+            active ? "themes-active" : null
+          }  appContainer${theme}`}
+          style={{ "--t": "-4.5rem", "--l": "0.5rem" }}
+          onClick={() => {
+            dispatch(changeTheme("Soft"));
+          }}
+        >
+          {<GiLindenLeaf />}
+        </button>
+        <button
+          className={`sizeOptions themes ${
+            active ? "themes-active" : null
+          } appContainer${theme}`}
+          style={{ "--t": "-3rem", "--l": "-2.8rem" }}
+          onClick={() => {
+            dispatch(changeTheme("Contrast"));
+          }}
+        >
+          <ImContrast />
+        </button>
+        <button
+          className={`sizeOptions themes ${
+            active ? "themes-active" : null
+          } appContainer${theme}`}
+          style={{ "--t": "0.4rem", "--l": "-4.5rem" }}
+          onClick={() => {
+            dispatch(changeTheme("Ligth"));
+          }}
+        >
+          <HiOutlineLightBulb />
+        </button>
+        <button
+          className={`sizeOptions themes ${
+            active ? "themes-active" : null
+          } appContainer${theme}`}
+          style={{ "--t": "3.6rem", "--l": "-2.8rem" }}
+          onClick={() => {
+            dispatch(changeTheme("Dark"));
+          }}
+        >
+          <MdDarkMode />
+        </button>
+        <button
+          className={`sizeOptions themes ${
+            active ? "themes-active" : null
+          } appContainer${theme}`}
+          style={{ "--t": "5.1rem", "--l": "0.5rem" }}
+          onClick={() => {
+            dispatch(changeTheme("Hot"));
+          }}
+        >
+          <GiThermometerHot />
+        </button>
+      </div>
     </div>
   );
 };

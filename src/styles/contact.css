@@ -1,8 +1,9 @@
 .contactContainer {
   position: relative;
+  margin-top: 2rem;
   opacity: 0%;
   bottom: 3rem;
-  font-size: 28.5px;
+  font-size: 13.7px;
   padding: 2rem 1rem 1rem;
   transition-property: bottom opacity;
   transition-timing-function: ease;
@@ -108,60 +109,59 @@
   }
 }
 @media (min-width: 768px) {
-  @media (min-height: 1368px) {
-    .sendInfoButtonSoft {
-      height: 4rem;
-      width: 6rem;
-      border-radius: 25%;
-    }
-    .sendInfoButtonDark {
-      height: 4rem;
-      width: 6rem;
-      border-radius: 25%;
-    }
-    .sendInfoButtonHot {
-      height: 4rem;
-      width: 6rem;
-      border-radius: 25%;
-    }
-    .sendInfoButtonLigth {
-      height: 4rem;
-      width: 6rem;
-      border-radius: 25%;
-    }
-    .sendInfoButtonContrast {
-      height: 4rem;
-      width: 6rem;
-      border-radius: 25%;
-    }
-  }
+  
   .contactContainer {
-    padding: 3rem;
+    padding: 0 6rem;
+    font-size: 18.4px;
   }
   .infoContactSoft {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     height: 5rem;
   }
+  .sendInfoButtonSoft{
+    width: 18%;
+    height: 3rem;
+    border-radius: 10px;
+  }
+ 
   .infoContactContrast {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     height: 5rem;
+  }
+  .sendInfoButtonContrast{
+    width: 18%;
+    height: 3rem;
+    border-radius: 15%;
   }
   .infoContactHot {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     height: 5rem;
+  }
+  .sendInfoButtonHot{
+    width: 18%;
+    height: 3rem;
+    border-radius: 15%;
   }
   .infoContactLigth {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     height: 5rem;
   }
+  .sendInfoButtonLigth{
+    width: 18%;
+    height: 3rem;
+    border-radius: 15%;
+  }
   .infoContactDark {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     height: 5rem;
+  }
+  .sendInfoButtonDark{
+    width: 18%;
+    height: 3rem;
+    border-radius: 15%;
   }
   .messageContact {
     height: 15rem;
   }
 }
 
-@media (min-height: 1024px) {
-}
