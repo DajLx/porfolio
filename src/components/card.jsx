@@ -11,6 +11,7 @@ function MyCard() {
   setTimeout(() => setActive(true));
   return (
     <div
+    id="sobreMi"
       className={
         active ? "card-container card-container-active" : "card-container"
       }

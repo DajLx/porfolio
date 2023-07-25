@@ -1,8 +1,7 @@
 .mainViewContainer {
   font-size: 13.7px;
   z-index: -2;
-  margin: 0 auto;
-  margin-top: 2rem;
+ 
   padding-right: 7rem;
   opacity: 0%;
   transition-property: padding opacity;
@@ -11,7 +10,7 @@
 }
 
 .mainViewContainer-active {
-  padding: 0 3rem;
+  padding: 4rem 3rem;
   opacity: 100%;
 }
 
@@ -41,7 +40,7 @@
   .mainViewContainer-active {
     /* padding: 0 7rem; */
     font-size: 18.4px;
-    padding: 0 6rem;
+    padding: 6rem 6rem;
   }
   .text-mainView {
     top: 16%;

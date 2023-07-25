@@ -12,14 +12,13 @@ function MyNavbar() {
   const theme = useSelector((state) => state.theme);
   const navigate = useNavigate();
 
-
-
   return (
     <Navbar expand="lg" className={`NavbarContainer${theme}`}>
       <Container>
         <Navbar.Brand
           className={`NavbarItems${theme}`}
           onClick={() => navigate("/")}
+          href={"#mainView"}
         >
           Breiner Duran
         </Navbar.Brand>
@@ -34,20 +33,19 @@ function MyNavbar() {
             style={{ display: "flex", alignItems: "center" }}
           >
             <Nav.Link
+              href="#sobreMi"
               className={`NavbarItems${theme}`}
-              onClick={() => navigate("/aboutMe")}
+              
             >
               Acerca de mi
             </Nav.Link>
-            <Nav.Link
-              className={`NavbarItems${theme}`}
-              onClick={() => navigate("/porfolio")}
-            >
+            <Nav.Link href="#portafolio" className={`NavbarItems${theme}`}>
               Portafolio
             </Nav.Link>
             <Nav.Link
+              href="#contacto"
               className={`NavbarItems${theme}`}
-              onClick={() => navigate("/contact")}
+            
             >
               Contacto
             </Nav.Link>

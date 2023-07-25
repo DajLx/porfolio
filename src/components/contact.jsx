@@ -10,6 +10,7 @@ function Contact() {
   const theme = useSelector((state) => state.theme);
   return (
     <div
+    id="contacto"
       className={
         active ? "contactContainer contactContainer-active" : "contactContainer"
       }

@@ -109,59 +109,11 @@
   }
 }
 @media (min-width: 768px) {
-  
   .contactContainer {
     padding: 0 6rem;
     font-size: 18.4px;
-  }
-  .infoContactSoft {
-    margin-bottom: 2rem;
-    height: 5rem;
-  }
-  .sendInfoButtonSoft{
-    width: 18%;
-    height: 3rem;
-    border-radius: 10px;
-  }
- 
-  .infoContactContrast {
-    margin-bottom: 2rem;
-    height: 5rem;
-  }
-  .sendInfoButtonContrast{
-    width: 18%;
-    height: 3rem;
-    border-radius: 15%;
-  }
-  .infoContactHot {
-    margin-bottom: 2rem;
-    height: 5rem;
-  }
-  .sendInfoButtonHot{
-    width: 18%;
-    height: 3rem;
-    border-radius: 15%;
-  }
-  .infoContactLigth {
-    margin-bottom: 2rem;
-    height: 5rem;
-  }
-  .sendInfoButtonLigth{
-    width: 18%;
-    height: 3rem;
-    border-radius: 15%;
-  }
-  .infoContactDark {
-    margin-bottom: 2rem;
-    height: 5rem;
-  }
-  .sendInfoButtonDark{
-    width: 18%;
-    height: 3rem;
-    border-radius: 15%;
   }
   .messageContact {
     height: 15rem;
   }
 }
-

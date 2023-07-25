@@ -19,6 +19,7 @@ function Porfolio() {
   return (
     <>
       <Container
+      id="portafolio"
         style={{ alignItems: "center" }}
         className={active ? "portfolio portfolio-active" : "portfolio"}
       >

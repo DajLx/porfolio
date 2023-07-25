@@ -10,7 +10,7 @@ const MainView = () => {
   }, "500");
 
   return (
-    <div
+    <div id="mainView"
       className={
         active
           ? "mainViewContainer mainViewContainer-active"
