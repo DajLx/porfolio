@@ -1,7 +1,7 @@
 .mainViewContainer {
   font-size: 13.7px;
   z-index: -2;
- 
+  text-align: center;
   padding-right: 7rem;
   opacity: 0%;
   transition-property: padding opacity;

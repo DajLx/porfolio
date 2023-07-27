@@ -4,6 +4,8 @@ import gif3 from "../assets/gif3.gif";
 import demoHouseOfDev from "../assets/demoHouseOfDev.gif";
 import demoColorGame from "../assets/demoColorGame.gif";
 import demoDevGames3 from "../assets/demoDevGames3.gif";
+import demoToDoList from "../assets/demoToDoList.gif";
+import demoWeatherChannel from "../assets/demoWeatherChannel.gif";
 import Bootstrap from "../assets/Bootstraplogo.png";
 import express from "../assets/expressJsLogo.png";
 import github from "../assets/GitHubLogo.png";
@@ -21,10 +23,14 @@ import MaterialUI from "../assets/material-ui.svg";
 import imgHouseOfDev from "../assets/pro1.png";
 import imgColorGame from "../assets/img2.png";
 import imgDevGames3 from "../assets/pro2.png";
+import imgToDoList from "../assets/todolist.png";
+import imgWeatherChannel from "../assets/wheatherChannel.jpg";
 export default {
   HouseOfDev: demoHouseOfDev,
   ColorGame: demoColorGame,
   DevGames3: demoDevGames3,
+  ToDoList: demoToDoList,
+  WeatherChannel: demoWeatherChannel,
   bootstrap: Bootstrap,
   express: express,
   github: github,
@@ -42,4 +48,6 @@ export default {
   imgHouseOfDev,
   imgColorGame,
   imgDevGames3,
+  imgToDoList,
+  imgWeatherChannel,
 };

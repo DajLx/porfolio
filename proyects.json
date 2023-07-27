@@ -42,8 +42,35 @@
         "correción de ciertos bugs a la hora del deployeo"
       ],
       "member": 3,
-      "technologies": ["nodeJs", "express", "sequelize", "postgreSQL", "git", "github", "npm", "react", "redux", "Material-UI"],
+      "technologies": [
+        "nodeJs",
+        "express",
+        "sequelize",
+        "postgreSQL",
+        "git",
+        "github",
+        "npm",
+        "react",
+        "redux",
+        "Material-UI"
+      ],
       "link": "https://devgames3.netlify.app/"
+    },
+    "ToDoList": {
+      "name": "ToDoList",
+      "description": "proyecto hecho con javaScript vanilla. En el que se presenta una lista en la que puedes agregar, eliminar o editar tareas",
+      "responsibilities": " el manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho proyecto. En español: me encargué de que todo funcione mediante un hoja de código",
+      "member": 1,
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "link": "https://pdr-alexduran-8aadcd.netlify.app/proyecto%20to%20do%20list/"
+    },
+    "WeatherChannel": {
+      "name": "WeatherChannel",
+      "description": "proyecto hecho con javaScript vanilla. En el que se presenta una interfaz en la que podras escribir el nombre de una ciudad y saber la temperatura de dicha ciudad(dicha información es sacado de un API cabe aclarar) ",
+      "responsibilities": " el manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho proyecto. En español: me encargué de que todo funcione mediante un hoja de código",
+      "member": 1,
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "link": "https://pdr-alexduran-8aadcd.netlify.app/clase%2018/index.html"
     }
   }
 }

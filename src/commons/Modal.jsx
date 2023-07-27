@@ -11,6 +11,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 const ModalU = ({ proyect }) => {
   const theme = useSelector((state) => state.theme);
+  console.log(proyects[proyect]);
   const data = proyects[proyect];
   const show = useSelector((state) => state.show);
   const disptach = useDispatch();
