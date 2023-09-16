@@ -4,10 +4,10 @@ const AboutMe = () => {
   return (
     <div className="aboutmeContainer">
       <h2>Acerca de mi:</h2>
-      <p style={{ marginBottom: "0px" }}>
+      <p style={{ marginTop: "1rem" }}>
         Referente a mí: desde la infancia en el hogar me inculcaron valores
         escenciales de respeto, organización, honestidad, preparación futurista
-        y primordialmente ser proáctico y responsable, esto influyó para iniciar
+        y primordialmente ser pro-activo y responsable, esto influyó para iniciar
         mi preparación, tener seguridad y confianza para resolver los problemas,
         mejorar, evitar que la imprevisilidad del día a día dicte la actitud y
         comportamiento, saber actuar, no eperar a ver que pasa, buscar nuevas

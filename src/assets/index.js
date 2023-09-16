@@ -20,15 +20,22 @@ import html from "../assets/html.png";
 import css from "../assets/cssLogo.png";
 import js from "../assets/JSLogo.png";
 import MaterialUI from "../assets/material-ui.svg";
+import mongoDb from "../assets/mongoDb.png";
+import mongoose from "../assets/mongoose.png";
+import prismJs from "../assets/prismJs.png";
 import imgHouseOfDev from "../assets/pro1.png";
 import imgColorGame from "../assets/img2.png";
 import imgDevGames3 from "../assets/pro2.png";
 import imgToDoList from "../assets/todolist.png";
 import imgWeatherChannel from "../assets/wheatherChannel.jpg";
+import imgCarbonCyp from "../assets/carboncyp.png";
+import CarbonCyp from "../assets/carboncypdemo.gif";
+
 export default {
   HouseOfDev: demoHouseOfDev,
   ColorGame: demoColorGame,
   DevGames3: demoDevGames3,
+  CarbonCyp,
   ToDoList: demoToDoList,
   WeatherChannel: demoWeatherChannel,
   bootstrap: Bootstrap,
@@ -45,9 +52,13 @@ export default {
   CSS3: css,
   JavaScript: js,
   "Material-UI": MaterialUI,
+  mongoDb,
+  mongoose,
+  prismJs,
   imgHouseOfDev,
   imgColorGame,
   imgDevGames3,
   imgToDoList,
+  imgCarbonCyp,
   imgWeatherChannel,
 };

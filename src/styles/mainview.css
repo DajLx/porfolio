@@ -7,10 +7,11 @@
   transition-property: padding opacity;
   transition-timing-function: ease;
   transition-duration: 2s;
+  margin-bottom: 4rem;
 }
 
 .mainViewContainer-active {
-  padding: 4rem 3rem;
+  padding: 4rem 3rem 0;
   opacity: 100%;
 }
 
@@ -40,7 +41,7 @@
   .mainViewContainer-active {
     /* padding: 0 7rem; */
     font-size: 18.4px;
-    padding: 6rem 6rem;
+    padding: 6rem 6rem 0;
   }
   .text-mainView {
     top: 16%;

@@ -71,6 +71,28 @@
       "member": 1,
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "link": "https://pdr-alexduran-8aadcd.netlify.app/clase%2018/index.html"
+    },
+    "CarbonCyp": {
+      "name": "CarbonCyp",
+      "description": "proyecto realizado en solitario en el que se podra visualizar una interfaz para poder darle estilo a tu codigo junto con funciones como poder descargar una imagen de dicha estilización y guardar en favoritos para almacenarla y/o descargarla.",
+      "responsibilities": "basicamente el proyecto fue hecho por mi persona, asi que todas las resposanilidades y detallespresentes en el proyecto fueron hechas y resueltas por mi persona.",
+      "member": "1",
+      "technologies": [
+        "CSS3",
+        "JavaScript",
+        "nodeJs",
+        "npm",
+        "express",
+        "mongoDb",
+        "mongoose",
+        "bootstrap",
+        "react",
+        "redux",
+        "prismJs",
+        "git",
+        "github"
+      ],
+      "link": "https://carboncyp-amy4.vercel.app/"
     }
   }
 }

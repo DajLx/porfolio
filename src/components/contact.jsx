@@ -10,11 +10,11 @@ function Contact() {
   const theme = useSelector((state) => state.theme);
   return (
     <div
-    id="contacto"
+      id="contacto"
       className={
         active ? "contactContainer contactContainer-active" : "contactContainer"
-      }
-    >
+      }>
+      <h2 style={{ marginBottom: "1rem" }}>comunicate, ¡no seas timidxs!</h2>
       <Form action="https://formspree.io/f/mvonewpb" method="post">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Nombre</Form.Label>
@@ -49,14 +49,12 @@ function Contact() {
             rows="6"
             className={`infoContact${theme} messageContact`}
             name="comentario"
-            style={{ marginTop: "10px" }}
-          ></textarea>
+            style={{ marginTop: "10px" }}></textarea>
         </label>
         <Button
           variant="primary"
           type="submit"
-          className={`sendInfoButton${theme} `}
-        >
+          className={`sendInfoButton${theme} `}>
           Enviar
         </Button>
       </Form>

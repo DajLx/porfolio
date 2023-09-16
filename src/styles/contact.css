@@ -2,6 +2,9 @@
   position: relative;
   margin-top: 2rem;
   opacity: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   bottom: 3rem;
   font-size: 13.7px;
   padding: 2rem 1rem 1rem;
