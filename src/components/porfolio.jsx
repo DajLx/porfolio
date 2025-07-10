@@ -21,7 +21,8 @@ function Porfolio() {
       <Container
         id="portafolio"
         style={{ alignItems: "center", margin: "4rem auto" }}
-        className={active ? "portfolio portfolio-active" : "portfolio"}>
+        className={active ? "portfolio portfolio-active" : "portfolio"}
+      >
         <h2 style={{ marginBottom: "2rem" }}>Porfolio:</h2>
         <Row>
           {Object.entries(proyects).map(([key, proyect]) => (
@@ -30,17 +31,21 @@ function Porfolio() {
               onClick={() => {
                 handleShow(), setProyect(proyect.name);
               }}
-              style={{ marginBottom: "1rem" }}>
-              {proyect.name}
-              <img
-                src={img[`img${proyect.name}`]}
-                style={{
-                  height: "88%",
-                  width: "88%",
-                  borderRadius: "10%",
-                  margin: "0 0 1rem",
-                }}
-              />
+              style={{ marginBottom: "1rem" }}
+            >
+              <div style={{ height: "90%", width: "90%" }}>
+                {console.log(proyect)}
+                <span style={{ marginBottom: "2rem" }}>{proyect.name}</span>
+                <img
+                  src={img[`img${proyect.name}`]}
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                    borderRadius: "10%",
+                    margin: "0 0 1rem",
+                  }}
+                />
+              </div>
             </Col>
           ))}
           {/* <Col

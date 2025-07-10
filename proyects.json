@@ -2,7 +2,7 @@
   "proyects": {
     "HouseOfDev": {
       "name": "HouseOfDev",
-      "description": "aplicación web que empezó su desarrollo entre 3 personas el 21-03-23 terminando el mismo un mes después, cuyo rol principal es la venta y alquiler de viviendas mediante citas generadas por los usuarios que visiten la app cabe destacar que tambien pueden añadir una o varias viviendas a la sección de favoritos, dichas citas as manejaría uno o varios encargadxs(admins) los cuales tienen el rol de poder acutalizar, dar de baja o alta la vivienda, actualizar la información de un usuario(darle admin en este caso), o darles de baja, tambien pueden ver las citas de todos los usuarios y poder abrir un chat para comunicarse con el dueño de la cita (el usuario que la generó).",
+      "description": "Aplicación web que empezó su desarrollo entre 3 personas el 21-03-23 terminando el mismo un mes después, cuyo rol principal es la venta y alquiler de viviendas mediante citas generadas por los usuarios que visiten la app cabe destacar que tambien pueden añadir una o varias viviendas a la sección de favoritos, dichas citas as manejaría uno o varios encargadxs(admins) los cuales tienen el rol de poder acutalizar, dar de baja o alta la vivienda, actualizar la información de un usuario(darle admin en este caso), o darles de baja, tambien pueden ver las citas de todos los usuarios y poder abrir un chat para comunicarse con el dueño de la cita (el usuario que la generó).",
       "responsibilities": [
         "Vista de favoritos con su respectivo responsive para la vista en mobile o pc.",
         "Lógica para poder añadir a favoritos, y su respectiva ruta para guardar dicha infromación en la base de datos.",
@@ -27,19 +27,19 @@
     },
     "ColorGame": {
       "name": "ColorGame",
-      "description": "minijuego en el que en el título se te presenta un RGB(RED,GREEN,BLUE), basandose en los valores del RGB tendras que adivinar el color y tocarlo (en modo facil tienes 3 opciones mientras que en el difícil tienes 6), en dicho juego tuve la responsabilidad de:",
-      "responsibilities": " el manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho juego. En español: me encargué de que todo funcione mediante un hoja de código.",
+      "description": "Minijuego en el que en el título se te presenta un RGB(RED,GREEN,BLUE), basandose en los valores del RGB tendras que adivinar el color y tocarlo (en modo facil tienes 3 opciones mientras que en el difícil tienes 6), en dicho juego tuve la responsabilidad de:",
+      "responsibilities": "El manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho juego. En español: me encargué de que todo funcione mediante un hoja de código.",
       "members": 1,
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "link": "https://pdr-alexduran-8aadcd.netlify.app/color%20game/"
     },
     "DevGames3": {
       "name": "DevGames3",
-      "description": "como su nombre puede sugerir, Devgames3 es el nombre de un E-comerce de videojuegos completamente funcional que empezó a desarrollarse entre 6 personas el 7-03-23 y terminó el 16-03-23, en el cual se trabajó con pair-programming el lado de la vista del cliente (rol en el que me enliste)",
+      "description": "Como su nombre puede sugerir, Devgames3 es el nombre de un E-comerce de videojuegos completamente funcional que empezó a desarrollarse entre 6 personas el 7-03-23 y terminó el 16-03-23, en el cual se trabajó con pair-programming el lado de la vista del cliente (rol en el que me enliste)",
       "responsibilities": [
-        "implmentación de todos loc componentes,estados y/o lógicas del visibles para el cliente (hechas en pair programming)",
-        "adaptar todas las rutas para que el deployeo de la app sea exitoso",
-        "correción de ciertos bugs a la hora del deployeo"
+        "Implmentación de todos loc componentes,estados y/o lógicas del visibles para el cliente (hechas en pair programming)",
+        "Adaptar todas las rutas para que el deployeo de la app sea exitoso",
+        "Correción de ciertos bugs a la hora del deployeo"
       ],
       "member": 3,
       "technologies": [
@@ -58,24 +58,24 @@
     },
     "ToDoList": {
       "name": "ToDoList",
-      "description": "proyecto hecho con javaScript vanilla. En el que se presenta una lista en la que puedes agregar, eliminar o editar tareas",
-      "responsibilities": " el manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho proyecto. En español: me encargué de que todo funcione mediante un hoja de código",
+      "description": "Proyecto hecho con javaScript vanilla. En el que se presenta una lista en la que puedes agregar, eliminar o editar tareas",
+      "responsibilities": "El manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho proyecto. En español: me encargué de que todo funcione mediante un hoja de código",
       "member": 1,
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "link": "https://pdr-alexduran-8aadcd.netlify.app/proyecto%20to%20do%20list/"
     },
     "WeatherChannel": {
       "name": "WeatherChannel",
-      "description": "proyecto hecho con javaScript vanilla. En el que se presenta una interfaz en la que podras escribir el nombre de una ciudad y saber la temperatura de dicha ciudad(dicha información es sacado de un API cabe aclarar) ",
-      "responsibilities": " el manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho proyecto. En español: me encargué de que todo funcione mediante un hoja de código",
+      "description": "Proyecto hecho con javaScript vanilla. En el que se presenta una interfaz en la que podras escribir el nombre de una ciudad y saber la temperatura de dicha ciudad(dicha información es sacado de un API cabe aclarar) ",
+      "responsibilities": "El manejo de la logica del script que hace funcionar las lógicas y funciones de cada boton o interacción presente en dicho proyecto. En español: me encargué de que todo funcione mediante un hoja de código",
       "member": 1,
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "link": "https://pdr-alexduran-8aadcd.netlify.app/clase%2018/index.html"
     },
     "CarbonCyp": {
       "name": "CarbonCyp",
-      "description": "proyecto realizado en solitario en el que se podra visualizar una interfaz para poder darle estilo a tu codigo junto con funciones como poder descargar una imagen de dicha estilización y guardar en favoritos para almacenarla y/o descargarla.",
-      "responsibilities": "basicamente el proyecto fue hecho por mi persona, asi que todas las resposanilidades y detallespresentes en el proyecto fueron hechas y resueltas por mi persona.",
+      "description": "Proyecto realizado en solitario en el que se podra visualizar una interfaz para poder darle estilo a tu codigo junto con funciones como poder descargar una imagen de dicha estilización y guardar en favoritos para almacenarla y/o descargarla.",
+      "responsibilities": "Basicamente el proyecto fue hecho por mi persona, asi que todas las resposanilidades y detallespresentes en el proyecto fueron hechas y resueltas por mi persona.",
       "member": "1",
       "technologies": [
         "CSS3",
@@ -93,6 +93,27 @@
         "github"
       ],
       "link": "https://carboncyp-amy4.vercel.app/"
+    },
+    "RomanConversor": {
+      "name": "RomanConversor",
+      "description": "Proyecto que cumple la funcion de convertir numeros romanos a numeros enteros y viceversa, con un inteligente asistente que en caso de error, dara sugerencias sobre las intenciones del usuario.",
+      "responsibilities": [
+        "Manejo y creacion de algoritmos para una conversion eficaz.",
+        "Diseño de la pagina en conjunto con la operabilidad de la misma.",
+        "Manejo de errores y eventos inesperados a la hora de hacer las conversiones."
+      ],
+      "member": "1",
+      "technologies": [
+        "CSS3",
+        "JavaScript",
+        "nodeJs",
+        "npm",
+        "bootstrap",
+        "react",
+        "git",
+        "github"
+      ],
+      "link": "https://romanconversor.netlify.app/"
     }
   }
 }
