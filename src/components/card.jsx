@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import image from "../assets/IMG_20230108_141401.jpg";
+import image from "../assets/WIN_20250310_12_28_55_Pro.jpg";
 import "../styles/card.css";
 import { useSelector } from "react-redux";
 import AboutMe from "./aboutMe";
@@ -11,7 +11,7 @@ function MyCard() {
   setTimeout(() => setActive(true));
   return (
     <div
-    id="sobreMi"
+      id="sobreMi"
       className={
         active ? "card-container card-container-active" : "card-container"
       }

@@ -3,11 +3,17 @@ import { BsWhatsapp } from "react-icons/bs";
 import { BsMessenger } from "react-icons/bs";
 import "../styles/footer.css";
 import { useSelector } from "react-redux";
+import content from "../../transletor.json";
 const Footer = () => {
   const theme = useSelector((state) => state.theme);
+  const language = useSelector((s) => s.language);
   return (
-    <div id="footer"style={{ textAlign: "center" }} className="footerContainer">
-      <h2 className="direction">Dirección:</h2>
+    <div
+      id="footer"
+      style={{ textAlign: "center" }}
+      className="footerContainer"
+    >
+      <h2 className="direction">{content.footer[language].address}</h2>
       <p>Venezuela, Carabobo</p>
       <div id={`writeMe`}>
         <a href="https://wa.me/+584145818721">

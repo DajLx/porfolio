@@ -4,17 +4,18 @@ import Col from "react-bootstrap/Col";
 import img from "../assets/";
 import Modal from "../commons/Modal";
 import { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { setShow } from "../state/show";
 import { proyects } from "../../proyects.json";
+import content from "../../transletor.json"
 
 function Porfolio() {
   const dispatch = useDispatch();
   const handleShow = () => dispatch(setShow(true));
+  const language = useSelector((state) => state.language);
   const [proyect, setProyect] = useState("");
   const [active, setActive] = useState(false);
   setTimeout(() => setActive(true), "500");
-  console.log(img);
 
   return (
     <>
@@ -23,7 +24,7 @@ function Porfolio() {
         style={{ alignItems: "center", margin: "4rem auto" }}
         className={active ? "portfolio portfolio-active" : "portfolio"}
       >
-        <h2 style={{ marginBottom: "2rem" }}>Porfolio:</h2>
+        <h2 style={{ marginBottom: "2rem" }}>{content.portfolio[language].title}</h2>
         <Row>
           {Object.entries(proyects).map(([key, proyect]) => (
             <Col
@@ -34,7 +35,6 @@ function Porfolio() {
               style={{ marginBottom: "1rem" }}
             >
               <div style={{ height: "90%", width: "90%" }}>
-                {console.log(proyect)}
                 <span style={{ marginBottom: "2rem" }}>{proyect.name}</span>
                 <img
                   src={img[`img${proyect.name}`]}

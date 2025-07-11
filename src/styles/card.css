@@ -10,8 +10,8 @@
 }
 
 .imageCard {
-  margin-top: 1rem;
-  border-radius: 100rem;
+  height: 10rem;
+  border-radius: 3rem;
 }
 
 .card-container {
