@@ -2,7 +2,9 @@ import gif1 from "../assets/gif1.gif";
 import gif2 from "../assets/gif2.gif";
 import gif3 from "../assets/gif3.gif";
 import demoHouseOfDev from "../assets/demoHouseOfDev.gif";
+import imgRomanConversor from "../assets/RomanConversor.png";
 import demoColorGame from "../assets/demoColorGame.gif";
+import RomanConversor from "../assets/demoRomanConversor.gif";
 import demoDevGames3 from "../assets/demoDevGames3.gif";
 import demoToDoList from "../assets/demoToDoList.gif";
 import demoWeatherChannel from "../assets/demoWeatherChannel.gif";
@@ -36,6 +38,7 @@ export default {
   ColorGame: demoColorGame,
   DevGames3: demoDevGames3,
   CarbonCyp,
+  RomanConversor,
   ToDoList: demoToDoList,
   WeatherChannel: demoWeatherChannel,
   bootstrap: Bootstrap,
@@ -61,4 +64,5 @@ export default {
   imgToDoList,
   imgCarbonCyp,
   imgWeatherChannel,
+  imgRomanConversor,
 };
