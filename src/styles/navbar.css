@@ -84,3 +84,9 @@
 #themeDark {
   color: white;
 }
+@media(max-width:991px){
+  .bottonTranslator{
+    position: relative;
+    bottom: 10px;
+  }
+}

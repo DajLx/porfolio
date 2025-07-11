@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "spanish": {
+      "aboutMe": "Acerca de mi",
+      "portfolio": "Portafolio",
+      "contact": "Contacto",
+      "translator": "En"
+    },
+    "english": {
+      "aboutMe": "About me",
+      "portfolio": "Portfolio",
+      "contact": "Contact",
+      "translator": "Es"
+    }
+  },
+  "presentation": {
+    "spanish": [
+      "¡Hola! ¡Bienvenido/a a mi perfil! Aquí podrás conocer más sobre mí y mis proyectos. No te preocupes, todo es gratis y sin compromiso. En la sección \"Acerca de mí\" encontrarás información sobre mi personalidad, actitud y ",
+      "experiencia laboral. En \"Portafolio\" podrás ver mis proyectos y un juego dinámico de colores que te encantará. Si deseas contactarme, ve a la sección \"Contacto\", donde encontrarás mis datos personales y medios para comunicarte conmigo de forma fácil y sencilla. Recuerda que siempre hay solución a los problemas, solo necesitas constancia, perseverancia y paciencia para lograr grandes cosas. Y si te cansas del tema, ¡puedes cambiarlo con solo un clic en el botón a tu derecha! ¡Gracias por visitar mi perfil!"
+    ],
+    "english": [
+      "Hi! Welcome to my profile! Here you can learn more about me and my projects. Don't worry, everything is free and without obligation. In the \"About Me\" section you'll find information about my personality, attitude, and",
+      "work experience. In \"Portfolio\" you can see my projects and a dynamic color game that you'll love. If you wish to contact me, go to the \"Contact\" section, where you'll find my personal details and easy ways to communicate with me. Remember that there's always a solution to problems; you just need constancy, perseverance, and patience to achieve great things. And if you get tired of the theme, you can change it with just one click on the button to your right! Thanks for visiting my profile!"
+    ]
+  },
+  "aboutMe": {
+    "spanish": {
+      "title": "Aceca de mi:",
+      "aboutMe": "Referente a mí: desde la infancia en el hogar me inculcaron valores escenciales de respeto, organización, honestidad, preparación futurista y primordialmente ser pro-activo y responsable, esto influyó para iniciar mi preparación, tener seguridad y confianza para resolver los problemas, mejorar, evitar que la imprevisilidad del día a día dicte la actitud y comportamiento, saber actuar, no eperar a ver que pasa, buscar nuevas oportunidades, anticipar y saber tener criterio para resolver los problemas que se presenten, me adapto fácilmente a compañeros o equipo laboral, psíquicamente estoy preparado para trabajar bajo presión, motivando al empleador a estar satisfecho con mis aportes y servicios. Mis metas es adquirir nuevos conocimientos para superarme y alcanzar éxitos en la vida."
+    },
+    "english": {
+      "title": "About me:",
+      "aboutMe": "About me: since childhood, essential values of respect, organization, honesty, futuristic preparation, and primarily being proactive and responsible, were instilled in me at home. This influenced me to begin my training, have security and confidence to solve problems, improve, prevent the unpredictability of daily life from dictating attitude and behavior, know how to act, not wait to see what happens, seek new opportunities, anticipate and know how to have good judgment to solve problems that arise. I adapt easily to colleagues or work teams, I am mentally prepared to work under pressure, motivating the employer to be satisfied with my contributions and services. My goals are to acquire new knowledge to improve myself and achieve success in life."
+    }
+  },
+  "portfolio": {
+    "spanish": { "title": "Portafolio:" },
+    "english": { "title": "Portfolio:" }
+  },
+  "contact": {
+    "spanish": {
+      "message": "comunicate, ¡no seas timidxs!",
+      "name": "Nombre",
+      "email": "Correo Electronico",
+      "phoneNumber": "Numero de telefono",
+      "messageEmail": "¿Algun mensaje en particular?",
+      "button": "enviar"
+    },
+    "english": {
+      "message": "Communicate, don't be shy!",
+      "name": "Name",
+      "email": "Email",
+      "phoneNumber": "Phone number",
+      "messageEmail": "Any particular message?",
+      "button": "send"
+    }
+  },
+  "footer": {
+    "spanish": { "address": "direccion" },
+    "english": { "address": "address" }
+  },
+  "modal": {
+    "spanish": {
+      "responsabilitieTitle": "En dicho proyecto tuve la responsabilidad de:",
+      "technologies": "ademas por acá te dejo el stack de tecnologías que se usó en",
+      "footer": [
+        "Si quieres ver mas sobre",
+        "puedes clickar en el video y probarlo tu mismo o puedes tocar",
+        "e iras al proyecto ya mencionado."
+      ],
+      "link": "aqui"
+    },
+    "english": {
+      "responsabilitieTitle": "In that project, I was responsible for:",
+      "technologies": "Also, here's the technology stack used in",
+      "footer": [
+        "If you want to see more about",
+        ", you can click on the video and try it yourself, or you can tap ",
+        "and you'll go to the aforementioned project."
+      ],
+      "link": "here"
+    }
+  }
+}
