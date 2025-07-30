@@ -28,7 +28,7 @@ function Porfolio() {
         <Row>
           {Object.entries(proyects).map(([key, proyect]) => (
             <Col
-              xs={4}
+              xs={12}
               md={6}
               onClick={() => {
                 handleShow(), setProyect(proyect.name);
