@@ -1,7 +1,7 @@
 {
   "navbar": {
     "spanish": {
-      "aboutMe": "Acerca de mi",
+      "aboutMe": "Acerca de mí",
       "portfolio": "Portafolio",
       "contact": "Contacto",
       "translator": "En"
@@ -14,19 +14,13 @@
     }
   },
   "presentation": {
-    "spanish": [
-      "¡Hola! ¡Bienvenido/a a mi perfil! Aquí podrás conocer más sobre mí y mis proyectos. No te preocupes, todo es gratis y sin compromiso. En la sección \"Acerca de mí\" encontrarás información sobre mi personalidad, actitud y ",
-      "experiencia laboral. En \"Portafolio\" podrás ver mis proyectos y un juego dinámico de colores que te encantará. Si deseas contactarme, ve a la sección \"Contacto\", donde encontrarás mis datos personales y medios para comunicarte conmigo de forma fácil y sencilla. Recuerda que siempre hay solución a los problemas, solo necesitas constancia, perseverancia y paciencia para lograr grandes cosas. Y si te cansas del tema, ¡puedes cambiarlo con solo un clic en el botón a tu derecha! ¡Gracias por visitar mi perfil!"
-    ],
-    "english": [
-      "Hi! Welcome to my profile! Here you can learn more about me and my projects. Don't worry, everything is free and without obligation. In the \"About Me\" section you'll find information about my personality, attitude, and",
-      "work experience. In \"Portfolio\" you can see my projects and a dynamic color game that you'll love. If you wish to contact me, go to the \"Contact\" section, where you'll find my personal details and easy ways to communicate with me. Remember that there's always a solution to problems; you just need constancy, perseverance, and patience to achieve great things. And if you get tired of the theme, you can change it with just one click on the button to your right! Thanks for visiting my profile!"
-    ]
+    "spanish": "¡Hola! ¡Bienvenido/a a mi perfil! Aquí podrás conocer más sobre mí y mis proyectos. No te preocupes, todo es gratis y sin compromiso. En la sección \"Acerca de mí\" encontrarás información sobre mi personalidad, actitud y experiencia laboral. En \"Portafolio\" podrás ver mis proyectos y un juego dinámico de colores que te encantará. Si deseas contactarme, ve a la sección \"Contacto\", donde encontrarás mis datos personales y medios para comunicarte conmigo de forma fácil y sencilla. Recuerda que siempre hay una solución a los problemas, solo necesitas constancia, perseverancia y paciencia para lograr grandes cosas. Y si te cansas del tema, ¡puedes cambiarlo con solo un clic en el botón a tu derecha! ¡Gracias por visitar mi perfil!",
+    "english": "Hi! Welcome to my profile! Here you can learn more about me and my projects. Don't worry, everything is free and without obligation. In the \"About Me\" section you'll find information about my personality, attitude, and work experience. In \"Portfolio\" you can see my projects and a dynamic color game that you'll love. If you wish to contact me, go to the \"Contact\" section, where you'll find my personal details and easy ways to communicate with me. Remember that there's always a solution to problems; you just need constancy, perseverance, and patience to achieve great things. And if you get tired of the theme, you can change it with just one click on the button to your right! Thanks for visiting my profile!"
   },
   "aboutMe": {
     "spanish": {
-      "title": "Aceca de mi:",
-      "aboutMe": "Referente a mí: desde la infancia en el hogar me inculcaron valores escenciales de respeto, organización, honestidad, preparación futurista y primordialmente ser pro-activo y responsable, esto influyó para iniciar mi preparación, tener seguridad y confianza para resolver los problemas, mejorar, evitar que la imprevisilidad del día a día dicte la actitud y comportamiento, saber actuar, no eperar a ver que pasa, buscar nuevas oportunidades, anticipar y saber tener criterio para resolver los problemas que se presenten, me adapto fácilmente a compañeros o equipo laboral, psíquicamente estoy preparado para trabajar bajo presión, motivando al empleador a estar satisfecho con mis aportes y servicios. Mis metas es adquirir nuevos conocimientos para superarme y alcanzar éxitos en la vida."
+      "title": "Acerca de mí:",
+      "aboutMe": "Referente a mí: Desde la infancia, en el hogar me inculcaron valores esenciales como el respeto, la organización, la honestidad, la preparación futurista y, primordialmente, ser proactivo y responsable. Esto influyó en mi formación, dándome seguridad y confianza para resolver problemas, mejorar y evitar que la imprevisibilidad del día a día dicte mi actitud y comportamiento.\n Sé cómo actuar, no espero a ver qué pasa; busco nuevas oportunidades, me anticipo y tengo el criterio para resolver los problemas que se presenten. Me adapto fácilmente a mis compañeros o al equipo de trabajo. Psíquicamente estoy preparado para trabajar bajo presión, motivando al empleador a estar satisfecho con mis aportes y servicios. Mi meta es adquirir nuevos conocimientos para superarme y alcanzar éxitos en la vida."
     },
     "english": {
       "title": "About me:",
@@ -39,12 +33,12 @@
   },
   "contact": {
     "spanish": {
-      "message": "comunicate, ¡no seas timidxs!",
+      "message": "Comunicate, ¡no seas timidxs!",
       "name": "Nombre",
-      "email": "Correo Electronico",
-      "phoneNumber": "Numero de telefono",
-      "messageEmail": "¿Algun mensaje en particular?",
-      "button": "enviar"
+      "email": "Correo Electrónico",
+      "phoneNumber": "Número de teléfono",
+      "messageEmail": "¿Algún mensaje en particular?",
+      "button": "Enviar"
     },
     "english": {
       "message": "Communicate, don't be shy!",
@@ -52,23 +46,23 @@
       "email": "Email",
       "phoneNumber": "Phone number",
       "messageEmail": "Any particular message?",
-      "button": "send"
+      "button": "Send"
     }
   },
   "footer": {
-    "spanish": { "address": "direccion" },
-    "english": { "address": "address" }
+    "spanish": { "address": "Direccion" },
+    "english": { "address": "Address" }
   },
   "modal": {
     "spanish": {
       "responsabilitieTitle": "En dicho proyecto tuve la responsabilidad de:",
-      "technologies": "ademas por acá te dejo el stack de tecnologías que se usó en",
+      "technologies": "Ademas por acá te dejo el stack de tecnologías que se usó en",
       "footer": [
-        "Si quieres ver mas sobre",
-        "puedes clickar en el video y probarlo tu mismo o puedes tocar ",
-        "e iras al proyecto ya mencionado."
+        "Si quieres ver más sobre",
+        "puedes hacer clic en el video para probarlo o tocar ",
+        "e irás al proyecto ya mencionado."
       ],
-      "link": "aqui"
+      "link": "aquí"
     },
     "english": {
       "responsabilitieTitle": "In that project, I was responsible for:",

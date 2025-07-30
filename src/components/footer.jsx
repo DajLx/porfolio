@@ -4,6 +4,11 @@ import { BsMessenger } from "react-icons/bs";
 import "../styles/footer.css";
 import { useSelector } from "react-redux";
 import content from "../../transletor.json";
+import { PiReadCvLogoBold } from "react-icons/pi";
+import { MdAttachEmail } from "react-icons/md";
+
+import cvDeveloper from "../assets/BreinerDuran_Cv_Desarrollador (1).pdf";
+
 const Footer = () => {
   const theme = useSelector((state) => state.theme);
   const language = useSelector((s) => s.language);
@@ -19,8 +24,11 @@ const Footer = () => {
         <a href="https://wa.me/+584145818721">
           <BsWhatsapp className={`contact${theme}`} />
         </a>
-        <a href="https://www.messenger.com/t/100074593797058/">
-          <BsMessenger className={`contact${theme}`} />
+        <a href={cvDeveloper} download>
+          <PiReadCvLogoBold />
+        </a>
+        <a href="mailto:durandaj027@gmail.com?subject=Oferta%20De%20Trabajo%20Developer">
+          <MdAttachEmail />
         </a>
       </div>
     </div>

@@ -1,6 +1,3 @@
-import gif1 from "../assets/gif1.gif";
-import gif2 from "../assets/gif2.gif";
-import gif3 from "../assets/gif3.gif";
 import demoHouseOfDev from "../assets/demoHouseOfDev.gif";
 import imgRomanConversor from "../assets/RomanConversor.png";
 import demoColorGame from "../assets/demoColorGame.gif";
@@ -25,7 +22,7 @@ import MaterialUI from "../assets/material-ui.svg";
 import mongoDb from "../assets/mongoDb.png";
 import mongoose from "../assets/mongoose.png";
 import prismJs from "../assets/prismJs.png";
-import imgHouseOfDev from "../assets/pro1.png";
+import imgHouseOfDev from "../assets/pro1.jpg";
 import imgColorGame from "../assets/img2.png";
 import imgDevGames3 from "../assets/pro2.png";
 import imgToDoList from "../assets/todolist.png";

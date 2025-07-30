@@ -21,7 +21,7 @@ function MyCard() {
         <Card.Img variant="top" src={image} className={`imageCard`} />
         <Card.Body>
           <Card.Title className="cardTitle">Breiner Duran</Card.Title>
-          <Card.Text>Full Stack developer</Card.Text>
+          <Card.Text>Full Stack Developer</Card.Text>
         </Card.Body>
       </Card>
       <AboutMe />

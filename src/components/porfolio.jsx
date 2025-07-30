@@ -21,20 +21,21 @@ function Porfolio() {
     <>
       <Container
         id="portafolio"
-        style={{ alignItems: "center", margin: "4rem auto" }}
+        style={{ alignItems: "center", margin: "1.5rem auto" }}
         className={active ? "portfolio portfolio-active" : "portfolio"}
       >
         <h2 style={{ marginBottom: "2rem" }}>{content.portfolio[language].title}</h2>
         <Row>
           {Object.entries(proyects).map(([key, proyect]) => (
             <Col
-              xs={6}
+              xs={4}
+              md={6}
               onClick={() => {
                 handleShow(), setProyect(proyect.name);
               }}
               style={{ marginBottom: "1rem" }}
             >
-              <div style={{ height: "90%", width: "90%" }}>
+              <div style={{ height: "70%", width: "100%" }}>
                 <span style={{ marginBottom: "2rem" }}>{proyect.name}</span>
                 <img
                   src={img[`img${proyect.name}`]}

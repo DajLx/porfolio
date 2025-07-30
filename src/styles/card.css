@@ -1,5 +1,5 @@
 .cardSize {
-  width: 13.7rem;
+  width: 18rem;
   margin-top: 1rem;
   margin: 0 auto;
   background: none;
@@ -11,7 +11,7 @@
 
 .imageCard {
   height: 10rem;
-  border-radius: 3rem;
+  border-radius: 2.5rem;
 }
 
 .card-container {

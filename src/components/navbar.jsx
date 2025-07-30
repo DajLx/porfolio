@@ -1,16 +1,17 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "../styles/navbar.css";
 import { useSelector } from "react-redux";
 import content from "../../transletor.json";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router";
-import { changeTheme } from "../state/theme";
 import { Form } from "react-bootstrap";
 import { switchLanguage } from "../state/language";
 import { useEffect } from "react";
+import { changeLanguage } from "../commons/utils";
+import ReactCountryFlag from "react-country-flag";
+
 function MyNavbar() {
   const dis = useDispatch();
   const theme = useSelector((state) => state.theme);
@@ -37,10 +38,7 @@ function MyNavbar() {
         />
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav
-            className="me-auto "
-            style={{ display: "flex", alignItems: "flex-end" }}
-          >
+          <Nav className="me-auto itemNav" style={{ display: "flex" }}>
             <Nav.Link href="#sobreMi" className={`NavbarItems${theme}`}>
               {content.navbar[language].aboutMe}
             </Nav.Link>
@@ -53,19 +51,25 @@ function MyNavbar() {
             <Nav.Link></Nav.Link>
           </Nav>
           <div
+            className="itemNav"
             style={{
               with: "100%",
               display: "flex",
-              justifyContent: "flex-end",
             }}
           >
-            <Form.Check // prettier-ignore
-              type="switch"
-              id="custom-switch"
-              label={content.navbar[language].translator}
-              className={`bottonTranslator NavbarItems${theme}`}
-              onClick={() => dis(switchLanguage())}
-            />
+            <div className="containerFlipper">
+              <div
+                style={{ fontSize: "2rem" }}
+                className="buttonTranslator"
+                onClick={(e) => {
+                  dis(switchLanguage()), changeLanguage(e);
+                }}
+              >
+                {" "}
+                <ReactCountryFlag countryCode="US" svg className="front" />
+                <ReactCountryFlag countryCode="ES" svg className="back" />
+              </div>
+            </div>
           </div>
         </Navbar.Collapse>
       </Container>

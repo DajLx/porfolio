@@ -7,7 +7,7 @@
   transition-property: padding opacity;
   transition-timing-function: ease;
   transition-duration: 2s;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .mainViewContainer-active {
